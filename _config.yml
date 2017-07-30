@@ -42,12 +42,12 @@ kramdown:
   input:            GFM
 
 # Resume details
-resume_avatar:                  "true"
-resume_name:                    "Homer J. Simpson"
-resume_title:                   "Nuclear Safety Inspector"
-resume_contact_email: "homerjsimpson@youremailaddress.com"
-resume_header_contact_info: "742 Evergreen Terrace, Springfield | 555-7334 | homerjsimpson@youremailaddress.com"
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but K.I.S.S.</p>"
+resume_avatar:                  "false"
+resume_name:                    "Vishal Katariya"
+resume_title:                   "PhD candidate"
+resume_contact_email: "vkatariya8@gmail.com"
+#resume_header_contact_info: "742 Evergreen Terrace, Springfield | 555-7334 | homerjsimpson@youremailaddress.com"
+resume_header_intro: "<p>I'm a PhD candidate at Louisiana State University, doing research in quantum computing and quantum information theory.</p>"
 
 resume_section_experience:      true
 resume_section_education:       true
