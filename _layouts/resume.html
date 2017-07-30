@@ -2,7 +2,9 @@
 <html lang="en">
 {% include head.html %}
 <body>
-<header class="header">
+
+	<div class="content-container" itemscope itemtype="http://schema.org/Person">
+	<header class="header">
   <div class="header-title">
     <a href="{{ site.url }}{{ site.baseurl }}">{{ site.name }}</a>
   </div>
@@ -16,7 +18,6 @@
     {% endfor %}
   </nav>
 </header>
-	<div class="content-container" itemscope itemtype="http://schema.org/Person">
 		<header class="page-header">
         <!-- Contact buttons don't work in print, configure in the _config.yml file, remove "print-only" to display always. -->
         <div class="header-contact-info print-only" itemprop="contact-info">
