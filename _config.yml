@@ -45,8 +45,8 @@ kramdown:
 nav:
 #  - name:           "About"
 #    url:            "/about"
-  # - name:           "Archive"
-  #   url:            "/archive"
+- name:           "CV"
+  url:            "/cv"
   # - name:           "Tags"
   #   url:            "/tags"
   # - name:           "Github"
