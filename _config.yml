@@ -61,8 +61,8 @@ resume_theme:                   default
 
 # Navigation
 nav:
-  - katskable:           "Kat's Kable"
-    url:            "/katskable"
+- name:           "Kat's Kable"
+  url:            "/katskable"
 - name:           "CV"
   url:            "/cv"
   # - name:           "Tags"
