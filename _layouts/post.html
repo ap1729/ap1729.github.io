@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+
+
 <header>
   <div class="header-small">
     <a href="{{site.url}}{{site.baseurl}}">{{ site.name }}</a>
@@ -23,6 +25,9 @@ layout: default
       {% endfor %}
     </ul>
   </div>
+
+{{ post.tags }}
+
 
   {{ content }}
 
