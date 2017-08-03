@@ -23,6 +23,7 @@ disqus:
   id:               "vkatariya8"
 
 # URL
+og:site_name: "http://vishalkatariya.com"
 site_name: "http://vishalkatariya.com"
 url:                "http://vishalkatariya.com" # the base hostname & protocol for your site
 # url:                "http://localhost:4000" # use this url when you develop
