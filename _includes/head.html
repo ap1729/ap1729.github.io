@@ -12,8 +12,8 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
 
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
-  {% seo %}
-
+  {% seo og:site_name=false%}
+  <meta property="og:site_name" content="Vishal Katariya" />
 
   {% include google-analytics.html %}
 
