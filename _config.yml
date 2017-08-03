@@ -23,6 +23,8 @@ disqus:
   id:               "vkatariya8"
 
 # URL
+site_title: "Vishal Katariya"
+og:site_title: "Vishal Katariya"
 og:site_name: "http://vishalkatariya.com"
 site_name: "http://vishalkatariya.com"
 url:                "http://vishalkatariya.com" # the base hostname & protocol for your site
