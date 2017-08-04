@@ -24,10 +24,6 @@ disqus:
   id:               "vkatariya8"
 
 # URL
-site_title: "Vishal Katariya"
-og:site_title: "Vishal Katariya"
-og:site_name: "http://vishalkatariya.com"
-site_name: "http://vishalkatariya.com"
 url:                "http://vishalkatariya.com" # the base hostname & protocol for your site
 # url:                "http://localhost:4000" # use this url when you develop
 baseurl:            "/" # the subpath of your site, e.g. /blog
@@ -35,7 +31,7 @@ baseurl:            "/" # the subpath of your site, e.g. /blog
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:           Asia/Seoul
-permalink:          /:year-:month-:day/:title/
+permalink:          /:title/
 
 # Pagination
 paginate:           5
@@ -66,9 +62,11 @@ resume_theme:                   default
 
 # Navigation
 nav:
-- name:           "Kat's Kable"
+- name:           "Home  "
+  url:            "/"
+- name:           "Kat's Kable  "
   url:            "/katskable"
-- name:           "CV"
+- name:           "CV  "
   url:            "/cv"
   # - name:           "Tags"
   #   url:            "/tags"
@@ -99,6 +97,7 @@ defaults:
 gems:
   - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-admin
+#  - jekyll-admin
+  - jekyll-watch
 
 exclude:            [vendor]

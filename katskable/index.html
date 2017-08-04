@@ -6,7 +6,7 @@ description: A weekly compilation of great longform journalism from around the i
 
 <header class="header">
   <div class="header-title">
-    <a href="{{ site.url }}{{ site.baseurl }}">{{ site.name }}</a>
+    <a href="{{ site.url }}{{ site.baseurl }}">{{ page.title }}</a>
   </div>
   <nav class="header-nav">
     {% for nav in site.nav %}
@@ -39,12 +39,14 @@ A weekly compilation of great longform journalism from around the internet, rang
 <br>
 Here are some of the recent older editions.
 <br><br>
+
+
 <div class="archive">
   <div class="archive-list">
   {% if site.posts.size == 0 %}
     <h2>No post found</h2>
   {% else %}
-  {% for post in site.tags.kable %}
+  {% for post in site.tags.katskable %}
     <div class="archive-list-post" style="text-align: center;">
       {% if post.link %}
       <a href="{{ post.link }}">
